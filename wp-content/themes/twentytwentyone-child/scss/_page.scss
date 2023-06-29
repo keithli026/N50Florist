@@ -1,0 +1,18 @@
+#page {
+  background-color: pink;
+  a {
+    &:focus {
+      background-color: transparent;
+      text-decoration: none;
+      outline: 1px solid black;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .button {
+    &:focus {
+      outline: 1px solid black;
+    }
+  }
+}

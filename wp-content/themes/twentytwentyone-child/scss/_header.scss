@@ -1,0 +1,22 @@
+header {
+  #site-navigation {
+    .menu-button-container {
+      .button {
+        &:focus {
+          // outline: 1px solid black;
+        }
+      }
+    }
+    .primary-menu-container {
+      ul {
+        li {
+          &.current-menu-item {
+            a {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
